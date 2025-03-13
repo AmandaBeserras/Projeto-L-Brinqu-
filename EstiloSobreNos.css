@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-weight: 900;
+}
+
+body{
+  
+    background-color: aliceblue;
+    background-size: cover;
+    background-repeat: no-repeat; 
+
+ }
+
+ a{
+    text-decoration: none;
+  }
+
+  ul{
+    list-style: none;
+    display: flex;
+  }
+
+  html{
+    font-family: "nunito", sans-serif;
+    font-weight: 900;
+  }
+
+.logo{
+    width: 100px;
+    height: 96.88px;
+    left: 200px;
+    top: 27px;
+    border-radius: 113px;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    box-sizing: border-box;
+}
+
+nav{
+    max-width: 1120px;
+    margin: auto;
+    padding: 20px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    color: #963B84;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho{
+    color: #114C84;
+
+    .cabecalhoConteudo{
+
+        h1{
+        /*Posição*/
+       position: absolute;
+       left: 432px;
+       top: 197px;
+    
+       /*Estilo*/
+       font-size: 48px;
+       line-height: 65px;
+       display: flex;
+       align-items: center;
+       text-align: center;
+    
+       color: #77B8A0;
+        }
+    
+        p{
+       /*Posição*/
+       position: absolute;
+       width: 1055px;
+       height: 91px;
+       left: 200px;
+       top: 309px;
+
+       /*Estilo*/
+       font-weight: 600;
+       font-size: 18px;
+       line-height: 25px;
+       justify-content:space-around;
+
+        }
+    
+    }
+    .MVV{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    .MissaoConteudo{
+        
+        .circulo1{
+    
+            position: absolute;
+            width: 125px;
+            height: 125px;
+            left: 287px;
+            top: 483px;
+   
+            border-radius: 100%;
+            background: #77B8A0;
+   
+           }
+        .Missao{
+            position: absolute;
+            width: 87.5px;
+            height: 86.67px;
+            left: 305.33px;
+            top: 498.83px;
+        }
+
+        h2{
+            position: absolute;
+            width: 177px;
+            height: 39px;
+            left: 261px;
+            top: 638px;
+
+            font-size: 29px;
+            line-height: 40px;
+          
+        }
+        p{
+            position: absolute;
+            width: 300px;
+            height: 168px;
+            left: 200px;
+            top: 707px;
+
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+          
+        }
+        
+        h2{
+            color: #77B8A0;
+        }
+    }
+    .VisaoConteudo{
+        
+        .Visao{
+            position: absolute;
+            width: 98.33px;
+            height: 88.33px;
+            left: 669.33px;
+            top: 503px;
+
+        }
+
+        .circulo2{
+      
+            position: absolute;
+            width: 125px;
+            height: 125px;
+            left: 656px;
+            top: 483px;
+    
+            border-radius: 100%;
+            background: #77B8A0;
+       
+            }
+            
+            h2{
+             position: absolute;
+             width: 177px;
+             height: 39px;
+             left: 631px;
+             top: 637px;
+    
+             font-size: 29px;
+             line-height: 40px;
+
+             color: #77B8A0;
+            }
+            p{
+
+                position: absolute;
+                width: 300px;
+                height: 144px;
+                left: 570px;
+                top: 705px;
+
+
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 25px;
+
+            }
+    }
+    .ValorConteudo{
+
+    .valor{
+            position: absolute;
+            width: 97.5px;
+            height: 92.5px;
+            left: 1040.33px;
+            top: 499.67px;
+
+    }
+
+    .circulo3{
+            
+            position: absolute;
+            width: 125px;
+            height: 125px;
+            left: 1027px;
+            top: 483px;
+    
+            border-radius: 100%;
+            background: #77B8A0;
+    }
+    h2{
+        position: absolute;
+        width: 177px;
+        height: 39px;
+        left: 1001px;
+        top: 638px;
+
+        font-size: 29px;
+        line-height: 40px;
+
+        color: #77B8A0;
+    }
+
+    p{
+        position: absolute;
+        width: 300px;
+        height: 299px;
+        left: 940px;
+        top: 707px;
+
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+     
+    }
+    
+}
+    }
+
+}
+
+.Conhecatbm{
+    h2{
+        position: absolute;
+        width: 435px;
+        height: 65px;
+        left: 502px;
+        top: 1044px;
+
+        font-size: 48px;
+        line-height: 65px;
+
+        color: #EF7811;
+
+    }
+    .Espaco{
+        position: absolute;
+        width: 193px;
+        height: 33px;
+        left: 435px;
+        top: 1212px;
+
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+        display: flex;
+        align-items:center ;
+       
+        
+        color: #FFFFFF;
+
+        /* Retângulo */
+        position: absolute;
+        width: 456px;
+        height: 150px;
+        left: 199px;
+        top: 1154px;
+
+        background: #114C84;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 34px;
+
+    }
+
+    .Espacoimg{
+        position: absolute;
+        width: 189.65px;
+        height: 115px;
+        left: 225px;
+        top: 1171px;
+
+    }
+
+    .Servico{
+        position: absolute;
+        width: 193px;
+        height: 33px;
+        left: 823px;
+        top: 1212px;
+
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+        display: flex;
+        align-items:center ;
+       
+
+        color: #FFFFFF;
+
+        /* Retângulo */
+        position: absolute;
+        width: 456px;
+        height: 150px;
+        left: 788px;
+        top: 1154px;
+
+        background: #EC7BA7;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 34px;
+
+    }
+    .Servicoimg{
+        justify-content: flex;
+        position: absolute;
+        width: 166.91px;
+        height: 115px;
+        left: 1037px;
+        top: 1171px;
+
+    }
+}
